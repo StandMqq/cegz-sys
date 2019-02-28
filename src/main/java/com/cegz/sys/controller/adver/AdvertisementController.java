@@ -397,6 +397,7 @@ public class AdvertisementController {
 						} catch (Exception e) {
 							log.error(e.getMessage(), e);
 							return serverAck.getServerError();
+
 						}
 					}else {
 						try {
